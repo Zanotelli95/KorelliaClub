@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".rer">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/toolbarrer"
+        >
+    </androidx.appcompat.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_marginTop="50dp"
+        android:scrollbars="none"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="57dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView202"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:textColor="@color/white"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="¿Qúe es RER?" />
+
+            <TextView
+                android:id="@+id/textView203"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:text="RER o repeticiones en reserva, es un método que sirve para modular la intensidad de tu entrenamiento y tener un mejor control de la fatiga." />
+
+            <TextView
+                android:id="@+id/textView204"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:textColor="@color/white"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="¿Cómo aplico las repeticiones en reserva?" />
+
+            <TextView
+                android:id="@+id/textView205"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:text="Supongamos que mi rutina me indica que realice en X ejercicio, 10 repeticiones con 2 - 3 RER, por lo cual deberías de buscar un peso adecuado para ese ejercicio que te permita realizar 12 a 13 repeticiones máximo, sin embargo, solo realizas las 10 repeticiones indicadas. Es decir, estas entrenando con 2 a 3 repeticiones antes de llegar al fallo muscular." />
+
+            <TextView
+                android:id="@+id/textView206"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:text="¿Para qué me sirve esto?" />
+
+            <TextView
+                android:id="@+id/textView207"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:text="Las máximas ganancias de masa muscular se logran llegando cerca del fallo muscular, sin embargo, mientras más cerca te encuentras del fallo muscular también incremaentarán los niveles de fatiga. Un exceso de fatiga afectará nuestro entrenamiento oscasionando que disminuyamos el volumen de entrenamiento, es decir, el conjunto de series, repeticiones y peso que podemos manejar en el gimnasio. Además de esto, a mayor fatiga, más nos costará recuperarnos de nuestros entrenamientos." />
+
+            <TextView
+                android:id="@+id/textView216"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="2dp"
+                android:text="Con el paso de las semanas de tu entrenaniemto, los niveles de intensidad y volumen de entrenamiento irán incrementando, por lo cual, las repeticiones en reserva nos ayudan como método para controlar esta fatiga e intensidad e incrementar la dificultad, con el paso del tiempo." />
+
+            <TextView
+                android:id="@+id/textView214"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:text="¿Qué es el fallo muscular?" />
+
+            <TextView
+                android:id="@+id/textView215"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:text="El fallo muscular es cuando no puedes realizar ni una sola repetición más en un ejercicio en especifico, es decir, cuando llegasta las máximas capacidades que te permite tu cuerpo. El fallo muscular es una herramienta muy buena que ayuda al desarrollo de la hipertrofia muscular, sin embargo, debe ser usada metodicamente y no siempre al 100% de tus entrenamientos el 100% del tiempo." />
+
+            <TextView
+                android:id="@+id/textView208"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:textColor="@color/white"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="Ejemplo 1" />
+
+            <TextView
+                android:id="@+id/textView209"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:text="- Press de banca horizontal con barra, 8 repeticiones con 3 a 4 RER" />
+
+            <TextView
+                android:id="@+id/textView210"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="20dp"
+                android:text="Realizar un press de banca horizontal con barra seleccionando un peso adecuado que te permita hacer máximo 11 a 12 repeticiones, sin embargo, solo realiza 8 repeticiones." />
+
+            <TextView
+                android:id="@+id/textView211"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:text="Ejemplo 2"/>
+
+            <TextView
+                android:id="@+id/textView212"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:text="- Extensiones de cuadriceps en máquina, 15 repeticiones con 0 - 1 RER" />
+
+            <TextView
+                android:id="@+id/textView213"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="2dp"
+                android:text="Realizar extensiones de cuadriceps en máquina seleccionando un peso que te permita realizar máximo 15 a 16 repeticiones y realiza 15 repeticiones, es decir, prácticamente estás llegando al fallo muscular. " />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

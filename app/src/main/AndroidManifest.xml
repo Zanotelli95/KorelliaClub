@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.korellia.korelliaclubapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:screenOrientation="portrait"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.KorelliaClub">
+
+        <!-- Sample AdMob app ID: ca-app-pub-3940256099942544~3347511713 -->
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-7204318393811470~4476597790"/>
+
+
+
+        <activity
+            android:name="com.korellia.korelliaclubapp.entreno6diasabadomujer"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.KorelliaClub.NoActionBar" />
+        <activity
+            android:name="com.korellia.korelliaclubapp.entreno6diajuevesmujer"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.KorelliaClub.NoActionBar" />
+        <activity
+            android:name="com.korellia.korelliaclubapp.entreno6diamartesmujer"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.KorelliaClub.NoActionBar" />
+        <activity
+            android:name="com.korellia.korelliaclubapp.entreno6diamiercolesmujer"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.KorelliaClub.NoActionBar" />
+        <activity
+            android:name="com.korellia.korelliaclubapp.entreno6diaviernesmujer"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.KorelliaClub.NoActionBar" />
+        <activity
+            android:name="com.korellia.korelliaclubapp.entreno6dialunesmujer"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.KorelliaClub.NoActionBar" />
+        <activity
+            android:name="com.korellia.korelliaclubapp.entreno5diajuevesmujer"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.KorelliaClub.NoActionBar" />
+        <activity
+            android:name="com.korellia.korelliaclubapp.entreno5diamiercolesmujer"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.KorelliaClub.NoActionBar" />
+        <activity
+            android:name="com.korellia.korelliaclubapp.entreno5diamartesmujer"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.KorelliaClub.NoActionBar" />
+        <activity
+            android:name="com.korellia.korelliaclubapp.entreno5diaviernesmujer"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.KorelliaClub.NoActionBar" />
+        <activity
+            android:name="com.korellia.korelliaclubapp.entreno5dialunesmujer"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.KorelliaClub.NoActionBar" />
+        <activity
+            android:name="com.korellia.korelliaclubapp.entreno4diaviernesmujer"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.KorelliaClub.NoActionBar" />
+        <activity
+            android:name="com.korellia.korelliaclubapp.entreno4diamartesmujer"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.KorelliaClub.NoActionBar" />
+        <activity
+            android:name="com.korellia.korelliaclubapp.entreno4diajuevesmujer"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.KorelliaClub.NoActionBar" />
+        <activity
+            android:name="com.korellia.korelliaclubapp.entreno4dialunesmujer"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.KorelliaClub.NoActionBar" />
+        <activity
+            android:name="com.korellia.korelliaclubapp.entreno3dia3mujer"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.KorelliaClub.NoActionBar" />
+        <activity
+            android:name="com.korellia.korelliaclubapp.entreno3dia2mujer"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.KorelliaClub.NoActionBar" />
+        <activity
+            android:name="com.korellia.korelliaclubapp.entreno3dia1mujer"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.KorelliaClub.NoActionBar" />
+        <activity
+            android:name="com.korellia.korelliaclubapp.generadorsecundario"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.KorelliaClub.NoActionBar" />
+        <activity
+            android:name="com.korellia.korelliaclubapp.nuevobloque"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.KorelliaClub.NoActionBar" />
+        <activity
+            android:name="com.korellia.korelliaclubapp.finsemana"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.KorelliaClub.NoActionBar" />
+        <activity
+            android:name="com.korellia.korelliaclubapp.historialentrenamiento"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.KorelliaClub.NoActionBar" />
+        <activity
+            android:name="com.korellia.korelliaclubapp.hidratacion"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.KorelliaClub.NoActionBar" />
+        <activity
+            android:name="com.korellia.korelliaclubapp.entreno6diasabado"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.KorelliaClub.NoActionBar" />
+        <activity
+            android:name="com.korellia.korelliaclubapp.entreno6diaviernes"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.KorelliaClub.NoActionBar" />
+        <activity
+            android:name="com.korellia.korelliaclubapp.entreno6diajueves"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.KorelliaClub.NoActionBar" />
+        <activity
+            android:name="com.korellia.korelliaclubapp.entreno6diamiercoles"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.KorelliaClub.NoActionBar" />
+        <activity
+            android:name="com.korellia.korelliaclubapp.entreno6diamartes"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.KorelliaClub.NoActionBar" />
+        <activity
+            android:name="com.korellia.korelliaclubapp.entreno6dialunes"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.KorelliaClub.NoActionBar" />
+        <activity
+            android:name="com.korellia.korelliaclubapp.entreno5diasabado"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.KorelliaClub.NoActionBar" />
+        <activity
+            android:name="com.korellia.korelliaclubapp.entreno5diaviernes"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.KorelliaClub.NoActionBar" />
+        <activity
+            android:name="com.korellia.korelliaclubapp.entreno5diamiercoles"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.KorelliaClub.NoActionBar" />
+        <activity
+            android:name="com.korellia.korelliaclubapp.entreno5diamartes"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.KorelliaClub.NoActionBar" />
+        <activity
+            android:name="com.korellia.korelliaclubapp.entreno5dialunes"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.KorelliaClub.NoActionBar" />
+        <activity
+            android:name="com.korellia.korelliaclubapp.nutricion"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.KorelliaClub.NoActionBar" />
+        <activity
+            android:name="com.korellia.korelliaclubapp.rer"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.KorelliaClub.NoActionBar" />
+        <activity
+            android:name="com.korellia.korelliaclubapp.calentamiento"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.KorelliaClub.NoActionBar" />
+        <activity
+            android:name="com.korellia.korelliaclubapp.ejerciciobiblioteca"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.KorelliaClub.NoActionBar" />
+        <activity
+            android:name="com.korellia.korelliaclubapp.bibliotecadeejercicios"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.KorelliaClub.NoActionBar" />
+        <activity
+            android:name="com.korellia.korelliaclubapp.pesocorporal"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.KorelliaClub.NoActionBar" />
+        <activity
+            android:name="com.korellia.korelliaclubapp.pantorrillas"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.KorelliaClub.NoActionBar" />
+        <activity
+            android:name="com.korellia.korelliaclubapp.muslomedio"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.KorelliaClub.NoActionBar" />
+        <activity
+            android:name="com.korellia.korelliaclubapp.muslo"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.KorelliaClub.NoActionBar" />
+        <activity
+            android:name="com.korellia.korelliaclubapp.cadera"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.KorelliaClub.NoActionBar" />
+        <activity
+            android:name="com.korellia.korelliaclubapp.cintura"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.KorelliaClub.NoActionBar" />
+        <activity
+            android:name="com.korellia.korelliaclubapp.torax"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.KorelliaClub.NoActionBar" />
+        <activity
+            android:name="com.korellia.korelliaclubapp.brazocontraido"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.KorelliaClub.NoActionBar" />
+        <activity
+            android:name="com.korellia.korelliaclubapp.brazorelajado"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.KorelliaClub.NoActionBar" />
+        <activity
+            android:name="com.korellia.korelliaclubapp.editardatos"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.KorelliaClub.NoActionBar" />
+        <activity
+            android:name="com.korellia.korelliaclubapp.mes1"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.KorelliaClub.NoActionBar" />
+        <activity
+            android:name="com.korellia.korelliaclubapp.disciplinas"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.KorelliaClub.NoActionBar" />
+        <activity
+            android:name="com.korellia.korelliaclubapp.generador"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.KorelliaClub.NoActionBar" />
+        <activity
+            android:name="com.korellia.korelliaclubapp.monitoreofinalizado"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.KorelliaClub.NoActionBar" />
+        <activity
+            android:name="com.korellia.korelliaclubapp.ejercicio"
+            android:exported="true"
+            android:label="@string/title_activity_ejercicio"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.KorelliaClub.NoActionBar" />
+        <activity
+            android:name="com.korellia.korelliaclubapp.olvidado"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.KorelliaClub.NoActionBar" />
+        <activity
+            android:name="com.korellia.korelliaclubapp.iniciarsesion"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.KorelliaClub.NoActionBar" />
+        <activity
+            android:name="com.korellia.korelliaclubapp.entrenamientofinalizado"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.KorelliaClub.NoActionBar" />
+        <activity
+            android:name="com.korellia.korelliaclubapp.entreno4diaviernes"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.KorelliaClub.NoActionBar" />
+        <activity
+            android:name="com.korellia.korelliaclubapp.entreno4diajueves"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.KorelliaClub.NoActionBar" />
+        <activity
+            android:name="com.korellia.korelliaclubapp.entreno4diamartes"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.KorelliaClub.NoActionBar" />
+        <activity
+            android:name="com.korellia.korelliaclubapp.entreno4dialunes"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.KorelliaClub.NoActionBar" />
+        <activity
+            android:name="com.korellia.korelliaclubapp.entreno3dia3"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.KorelliaClub.NoActionBar" />
+        <activity
+            android:name="com.korellia.korelliaclubapp.entreno3dia2"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.KorelliaClub.NoActionBar" />
+        <activity
+            android:name="com.korellia.korelliaclubapp.semana3dias"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.KorelliaClub.NoActionBar" />
+        <activity
+            android:name="com.korellia.korelliaclubapp.semana4dias"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.KorelliaClub.NoActionBar" />
+        <activity
+            android:name="com.korellia.korelliaclubapp.semana5dias"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.KorelliaClub.NoActionBar" />
+        <activity
+            android:name="com.korellia.korelliaclubapp.semana6dias"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.KorelliaClub.NoActionBar" />
+        <activity
+            android:name="com.korellia.korelliaclubapp.entreno3dia1"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.KorelliaClub.NoActionBar" />
+        <activity
+            android:name="com.korellia.korelliaclubapp.splash"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.KorelliaClub.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.korellia.korelliaclubapp.entrenamiento"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.KorelliaClub.NoActionBar" />
+        <activity
+            android:name="com.korellia.korelliaclubapp.monitoreo"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.KorelliaClub.NoActionBar" />
+        <activity
+            android:name="com.korellia.korelliaclubapp.misdatos"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.KorelliaClub.NoActionBar" />
+        <activity
+            android:name="com.korellia.korelliaclubapp.preguntas6"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.KorelliaClub.NoActionBar" />
+        <activity
+            android:name="com.korellia.korelliaclubapp.preguntas5"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.KorelliaClub.NoActionBar" />
+        <activity
+            android:name="com.korellia.korelliaclubapp.preguntas4"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.KorelliaClub.NoActionBar" />
+        <activity
+            android:name="com.korellia.korelliaclubapp.preguntas3"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.KorelliaClub.NoActionBar" />
+        <activity
+            android:name="com.korellia.korelliaclubapp.preguntas2"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.KorelliaClub.NoActionBar" />
+        <activity
+            android:name="com.korellia.korelliaclubapp.preguntas1"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.KorelliaClub.NoActionBar" />
+        <activity
+            android:name="com.korellia.korelliaclubapp.suscripcion"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.KorelliaClub.NoActionBar" />
+        <activity
+            android:name="com.korellia.korelliaclubapp.Ajustes"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.KorelliaClub.NoActionBar" />
+        <activity
+            android:name="com.korellia.korelliaclubapp.inicio"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.KorelliaClub.NoActionBar" />
+        <activity
+            android:name="com.korellia.korelliaclubapp.registro"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.KorelliaClub.NoActionBar" />
+
+        <activity
+            android:name="com.korellia.korelliaclubapp.MainActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.KorelliaClub" /> <!-- imagen foto de perfil -->
+
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Base.Theme.AppCompat" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <service
+            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>

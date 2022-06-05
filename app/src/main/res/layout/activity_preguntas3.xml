@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".preguntas3">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView67"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:layout_marginTop="30dp"
+                android:textSize="15dp"
+                android:text="Objetivos nutricionales" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <RadioButton
+                    android:id="@+id/radioButton13"
+                    android:background="@drawable/radiobutton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:buttonTint="@color/bluekorellia"
+
+                    android:layout_marginTop="20dp"
+                    android:gravity="center"
+                    android:textSize="12dp"
+                    android:text="Planeo ganar mucho peso corporal" />
+
+                <RadioButton
+                    android:id="@+id/radioButton14"
+                    android:background="@drawable/radiobutton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:buttonTint="@color/bluekorellia"
+                    android:layout_marginTop="4dp"
+                    android:gravity="center"
+                    android:textSize="12dp"
+                    android:text="Planeo ganar un peso corporal moderado " />
+
+                <RadioButton
+                    android:id="@+id/radioButton15"
+                    android:background="@drawable/radiobutton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:buttonTint="@color/bluekorellia"
+
+                    android:layout_marginTop="4dp"
+                    android:gravity="center"
+                    android:textSize="12dp"
+                    android:text="Planeo ganar poco peso corporal" />
+
+                <RadioButton
+                    android:id="@+id/radioButton16"
+                    android:background="@drawable/radiobutton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:buttonTint="@color/bluekorellia"
+
+                    android:layout_marginTop="4dp"
+                    android:gravity="center"
+                    android:textSize="12dp"
+                    android:text="Planeo mantener mi peso corporal" />
+
+                <RadioButton
+                    android:id="@+id/radioButton17"
+                    android:background="@drawable/radiobutton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:buttonTint="@color/bluekorellia"
+
+                    android:layout_marginTop="4dp"
+                    android:gravity="center"
+                    android:textSize="12dp"
+                    android:text="Planeo bajar poco peso corporal" />
+
+                <RadioButton
+                    android:id="@+id/radioButton18"
+                    android:background="@drawable/radiobutton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:buttonTint="@color/bluekorellia"
+
+                    android:layout_marginTop="4dp"
+                    android:gravity="center"
+                    android:textSize="12dp"
+                    android:text="Planeo bajar un peso corporal moderado" />
+
+                <RadioButton
+                    android:id="@+id/radioButton19"
+                    android:background="@drawable/radiobutton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:buttonTint="@color/bluekorellia"
+
+                    android:layout_marginTop="4dp"
+                    android:gravity="center"
+                    android:textSize="12dp"
+                    android:text="Planeo bajar mucho peso corporal" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView68"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:layout_gravity="center"
+                android:text="¿Realizas yoga, fisioterapia, crioterapia o masajes?"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <RadioButton
+                    android:id="@+id/radioButton20"
+                    android:background="@drawable/radiobutton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:buttonTint="@color/bluekorellia"
+
+                    android:layout_marginTop="20dp"
+                    android:gravity="center"
+                    android:textSize="12dp"
+                    android:text="Si" />
+
+                <RadioButton
+                    android:id="@+id/radioButton21"
+                    android:background="@drawable/radiobutton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:buttonTint="@color/bluekorellia"
+
+                    android:layout_marginTop="4dp"
+                    android:gravity="center"
+                    android:textSize="12dp"
+                    android:text="No" />
+            </RadioGroup>
+
+            <android.widget.Button
+                android:id="@+id/button23"
+                android:layout_marginTop="30dp"
+                android:textColor="@color/white"
+                android:background="@drawable/custom_input2"
+                android:layout_gravity="center"
+                android:textAllCaps="false"
+                android:textSize="16dp"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:onClick="preguntas30"
+                android:text="Siguiente" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

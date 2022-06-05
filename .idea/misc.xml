@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../../layout/custom_preview.xml" value="0.3953125" />
+        <entry key="app/src/main/res/drawable/bordes.xml" value="0.25" />
+        <entry key="app/src/main/res/drawable/botonpresionado.xml" value="0.25" />
+        <entry key="app/src/main/res/drawable/custom.xml" value="0.3828125" />
+        <entry key="app/src/main/res/drawable/custom_input.xml" value="0.3176710929519918" />
+        <entry key="app/src/main/res/drawable/custom_input2.xml" value="0.25" />
+        <entry key="app/src/main/res/drawable/custom_input3.xml" value="0.31614583333333335" />
+        <entry key="app/src/main/res/drawable/custom_input4.xml" value="0.31614583333333335" />
+        <entry key="app/src/main/res/drawable/custom_input5.xml" value="0.31614583333333335" />
+        <entry key="app/src/main/res/drawable/custom_input6.xml" value="0.1675" />
+        <entry key="app/src/main/res/drawable/editborder.xml" value="0.165" />
+        <entry key="app/src/main/res/drawable/estilobutton2.xml" value="0.30885416666666665" />
+        <entry key="app/src/main/res/drawable/fondo1.xml" value="0.2890625" />
+        <entry key="app/src/main/res/drawable/fondo10.xml" value="0.32864583333333336" />
+        <entry key="app/src/main/res/drawable/fondo11.xml" value="0.32864583333333336" />
+        <entry key="app/src/main/res/drawable/fondo12.xml" value="0.32864583333333336" />
+        <entry key="app/src/main/res/drawable/fondo13.xml" value="0.32864583333333336" />
+        <entry key="app/src/main/res/drawable/fondo14.xml" value="0.32864583333333336" />
+        <entry key="app/src/main/res/drawable/fondo15.xml" value="0.32864583333333336" />
+        <entry key="app/src/main/res/drawable/fondo2.xml" value="0.2890625" />
+        <entry key="app/src/main/res/drawable/fondo3.xml" value="0.2890625" />
+        <entry key="app/src/main/res/drawable/fondo4.xml" value="0.2890625" />
+        <entry key="app/src/main/res/drawable/fondo5.xml" value="0.30364583333333334" />
+        <entry key="app/src/main/res/drawable/fondo6.xml" value="0.30364583333333334" />
+        <entry key="app/src/main/res/drawable/fondo7.xml" value="0.30364583333333334" />
+        <entry key="app/src/main/res/drawable/fondo8.xml" value="0.32864583333333336" />
+        <entry key="app/src/main/res/drawable/fondo9.xml" value="0.32864583333333336" />
+        <entry key="app/src/main/res/drawable/fondonopremium.xml" value="0.32864583333333336" />
+        <entry key="app/src/main/res/drawable/fondoprincipal.xml" value="0.39739583333333334" />
+        <entry key="app/src/main/res/drawable/fondoprincipal2.xml" value="0.25" />
+        <entry key="app/src/main/res/drawable/ic_baseline_food_bank_24.xml" value="0.30364583333333334" />
+        <entry key="app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.37962962962962965" />
+        <entry key="app/src/main/res/drawable/ic_notifications_black_24dp.xml" value="0.146" />
+        <entry key="app/src/main/res/drawable/imagen1.xml" value="0.32864583333333336" />
+        <entry key="app/src/main/res/drawable/mipbstyle.xml" value="0.39739583333333334" />
+        <entry key="app/src/main/res/drawable/radiobutton.xml" value="0.28703703703703703" />
+        <entry key="app/src/main/res/drawable/radiobutton2.xml" value="0.1605" />
+        <entry key="app/src/main/res/layout/activity_ajustes.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_bibliotecadeejercicios.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_brazocontraido.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_brazorelajado.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/activity_cadera.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_calentamiento.xml" value="0.36976506639427986" />
+        <entry key="app/src/main/res/layout/activity_cintura.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_disciplinas.xml" value="0.2833333333333333" />
+        <entry key="app/src/main/res/layout/activity_editardatos.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/activity_ejercicio.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_ejerciciobiblioteca.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_entrenamiento.xml" value="0.19635416666666666" />
+        <entry key="app/src/main/res/layout/activity_entrenamientofinalizado.xml" value="0.375" />
+        <entry key="app/src/main/res/layout/activity_entrenamientohoy.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_entreno3dia1.xml" value="0.27314814814814814" />
+        <entry key="app/src/main/res/layout/activity_entreno3dia1mujer.xml" value="0.37604166666666666" />
+        <entry key="app/src/main/res/layout/activity_entreno3dia2.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_entreno3dia2mujer.xml" value="0.22249589490968802" />
+        <entry key="app/src/main/res/layout/activity_entreno3dia3.xml" value="0.22485207100591717" />
+        <entry key="app/src/main/res/layout/activity_entreno3dia3mujer.xml" value="0.20072282457603557" />
+        <entry key="app/src/main/res/layout/activity_entreno3dialunes.xml" value="0.28229166666666666" />
+        <entry key="app/src/main/res/layout/activity_entreno4diajueves.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_entreno4diajuevesmujer.xml" value="0.2604166666666667" />
+        <entry key="app/src/main/res/layout/activity_entreno4dialunes.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_entreno4dialunesmujer.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_entreno4diamartes.xml" value="0.37604166666666666" />
+        <entry key="app/src/main/res/layout/activity_entreno4diamartesmujer.xml" value="0.27681307456588355" />
+        <entry key="app/src/main/res/layout/activity_entreno4diaviernes.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_entreno4diaviernesmujer.xml" value="0.37604166666666666" />
+        <entry key="app/src/main/res/layout/activity_entreno5diajuevesmujer.xml" value="0.3687436159346272" />
+        <entry key="app/src/main/res/layout/activity_entreno5dialunes.xml" value="0.37604166666666666" />
+        <entry key="app/src/main/res/layout/activity_entreno5dialunesmujer.xml" value="0.27314814814814814" />
+        <entry key="app/src/main/res/layout/activity_entreno5diamartes.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_entreno5diamartesmujer.xml" value="0.20453257790368273" />
+        <entry key="app/src/main/res/layout/activity_entreno5diamiercoles.xml" value="0.22277074976858993" />
+        <entry key="app/src/main/res/layout/activity_entreno5diamiercolesmujer.xml" value="0.37604166666666666" />
+        <entry key="app/src/main/res/layout/activity_entreno5diasabado.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_entreno5diaviernes.xml" value="0.27314814814814814" />
+        <entry key="app/src/main/res/layout/activity_entreno5diaviernesmujer.xml" value="0.24466282616062351" />
+        <entry key="app/src/main/res/layout/activity_entreno6diajueves.xml" value="0.23045004787743376" />
+        <entry key="app/src/main/res/layout/activity_entreno6diajuevesmujer.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_entreno6dialunes.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_entreno6dialunesmujer.xml" value="0.3078125" />
+        <entry key="app/src/main/res/layout/activity_entreno6diamartes.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_entreno6diamartesmujer.xml" value="0.27314814814814814" />
+        <entry key="app/src/main/res/layout/activity_entreno6diamiercoles.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_entreno6diamiercolesmujer.xml" value="0.27681307456588355" />
+        <entry key="app/src/main/res/layout/activity_entreno6diasabado.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_entreno6diasabadomujer.xml" value="0.28229166666666666" />
+        <entry key="app/src/main/res/layout/activity_entreno6diaviernes.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_entreno6diaviernesmujer.xml" value="0.28229166666666666" />
+        <entry key="app/src/main/res/layout/activity_finsemana.xml" value="0.3109375" />
+        <entry key="app/src/main/res/layout/activity_generador.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_generadorsecundario.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_generarcalentamiento.xml" value="0.2833333333333333" />
+        <entry key="app/src/main/res/layout/activity_hidratacion.xml" value="0.36041666666666666" />
+        <entry key="app/src/main/res/layout/activity_historialentrenamiento.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_iniciarsesion.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_inicio.xml" value="0.30364583333333334" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_mes1.xml" value="0.28229166666666666" />
+        <entry key="app/src/main/res/layout/activity_misdatos.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_monitoreo.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_monitoreofinalizado.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_muslo.xml" value="0.3569553805774278" />
+        <entry key="app/src/main/res/layout/activity_muslomedio.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_nuevobloque.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/activity_nutricion.xml" value="0.2833333333333333" />
+        <entry key="app/src/main/res/layout/activity_olvidado.xml" value="0.253125" />
+        <entry key="app/src/main/res/layout/activity_pantorrillas.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_pesocorporal.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_preguntas1.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_preguntas2.xml" value="0.36976506639427986" />
+        <entry key="app/src/main/res/layout/activity_preguntas3.xml" value="0.346875" />
+        <entry key="app/src/main/res/layout/activity_preguntas4.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_preguntas5.xml" value="0.346875" />
+        <entry key="app/src/main/res/layout/activity_preguntas6.xml" value="0.346875" />
+        <entry key="app/src/main/res/layout/activity_registro.xml" value="0.27685185185185185" />
+        <entry key="app/src/main/res/layout/activity_rer.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_semana3dias.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/activity_semana3diasmujer.xml" value="0.3078125" />
+        <entry key="app/src/main/res/layout/activity_semana4dias.xml" value="0.278125" />
+        <entry key="app/src/main/res/layout/activity_semana5dias.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/activity_semana6dias.xml" value="0.3212962962962963" />
+        <entry key="app/src/main/res/layout/activity_splash.xml" value="0.21458333333333332" />
+        <entry key="app/src/main/res/layout/activity_suscripcion.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_torax.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/activity_umbilical.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/calendar_cell.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_dashboard.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_ejercicio.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_ejerciciocompleto.xml" value="0.3104166666666667" />
+        <entry key="app/src/main/res/layout/fragment_ejercicioprimario.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_ejerciciosecundario.xml" value="0.37604166666666666" />
+        <entry key="app/src/main/res/layout/fragment_ejercicioterciario.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_me.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_notifications.xml" value="0.3770833333333333" />
+        <entry key="app/src/main/res/layout/fragment_nutricion.xml" value="0.3109375" />
+        <entry key="app/src/main/res/layout/fragment_progresos.xml" value="0.3104125736738703" />
+        <entry key="app/src/main/res/layout/itempersona.xml" value="0.36041666666666666" />
+        <entry key="app/src/main/res/layout/lista.xml" value="0.28229166666666666" />
+        <entry key="app/src/main/res/layout/spinner_item_korellia.xml" value="0.37604166666666666" />
+        <entry key="app/src/main/res/layout/tablabrazorelajado.xml" value="0.2989583333333333" />
+        <entry key="app/src/main/res/layout/tablamedidas.xml" value="0.2833333333333333" />
+        <entry key="app/src/main/res/menu/bottom_nav_menu.xml" value="0.30364583333333334" />
+        <entry key="app/src/main/res/menu/menu2.xml" value="0.27783452502553624" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.33" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

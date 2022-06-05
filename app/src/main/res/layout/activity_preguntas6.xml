@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".preguntas6">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView73"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:text="Anteriormente, ¿Cuántos días entrenabas el mismo musculo?"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <RadioButton
+                    android:id="@+id/radioButton31"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:background="@drawable/radiobutton"
+                    android:layout_marginRight="30dp"
+                    android:buttonTint="@color/bluekorellia"
+
+                    android:layout_marginTop="20dp"
+                    android:gravity="center"
+                    android:textSize="12dp"
+                    android:text="1 vez por semana" />
+
+                <RadioButton
+                    android:id="@+id/radioButton38"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:background="@drawable/radiobutton"
+                    android:layout_marginRight="30dp"
+                    android:buttonTint="@color/bluekorellia"
+
+                    android:layout_marginTop="4dp"
+
+                    android:gravity="center"
+                    android:text="1 a 2 veces por semana"
+                    android:textSize="12dp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton39"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:background="@drawable/radiobutton"
+                    android:layout_marginRight="30dp"
+                    android:buttonTint="@color/bluekorellia"
+
+                    android:layout_marginTop="4dp"
+                    android:gravity="center"
+                    android:textSize="12dp"
+                    android:text="2 veces por semana" />
+
+                <RadioButton
+                    android:id="@+id/radioButton40"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:background="@drawable/radiobutton"
+                    android:layout_marginRight="30dp"
+                    android:buttonTint="@color/bluekorellia"
+
+                    android:layout_marginTop="4dp"
+                    android:gravity="center"
+                    android:textSize="12dp"
+                    android:text="2 a 3 veces por semana" />
+
+                <RadioButton
+                    android:id="@+id/radioButton41"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:background="@drawable/radiobutton"
+                    android:layout_marginRight="30dp"
+                    android:buttonTint="@color/bluekorellia"
+                    android:layout_marginTop="4dp"
+                    android:gravity="center"
+                    android:textSize="12dp"
+                    android:text="3 veces por semana" />
+
+                <RadioButton
+                    android:id="@+id/radioButton42"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:background="@drawable/radiobutton"
+                    android:layout_marginRight="30dp"
+                    android:buttonTint="@color/bluekorellia"
+
+                    android:layout_marginTop="4dp"
+
+                    android:gravity="center"
+                    android:text="Nunca he entrenado"
+                    android:textSize="12dp" />
+            </RadioGroup>
+
+            <android.widget.Button
+                android:id="@+id/button26"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:background="@drawable/custom_input2"
+                android:textSize="16dp"
+                android:onClick="preguntas60"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:text="Finalizar cuestionario" />
+
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

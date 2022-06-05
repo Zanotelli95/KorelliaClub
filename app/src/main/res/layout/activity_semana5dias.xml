@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".semana5dias">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toolbarsemana5dias"
+        >
+    </androidx.appcompat.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
+        android:scrollbars="none"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+
+            <TextView
+                android:id="@+id/textView391semana5"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:gravity="left"
+                android:textColor="@color/white"
+                android:text="Antes de empezar"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:clickable="true"
+                android:onClick="calentamientossemana5"
+                app:cardCornerRadius="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/fondo4"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView255semana5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="40dp"
+                        android:backgroundTint="@android:color/transparent"
+                        android:gravity="center"
+
+                        android:layout_marginBottom="0dp"
+                        android:textColor="@color/white"
+
+                        android:textSize="16dp"
+                        android:textStyle="bold"
+                        android:text="Calentamiento" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+
+            <TextView
+                android:id="@+id/textView39semana5"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp"
+                android:gravity="left"
+                android:textColor="@color/white"
+                android:text="Mi entrenamiento"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                />
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="40dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center"
+                    android:clickable="true"
+                    android:onClick="dia1"
+                    app:cardCornerRadius="10dp" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/fondo1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textViewlunessemana5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="50dp"
+                            android:backgroundTint="@android:color/transparent"
+                            android:gravity="center"
+
+                            android:layout_marginBottom="10dp"
+                            android:text="Lunes"
+                            android:textColor="@color/white"
+
+                            android:textSize="18dp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="40dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_gravity="center"
+                    android:clickable="true"
+                    android:onClick="dia2"
+                    app:cardCornerRadius="10dp" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/fondo14"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textViewmartessemana5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="50dp"
+                            android:backgroundTint="@android:color/transparent"
+                            android:gravity="center"
+
+                            android:layout_marginBottom="10dp"
+
+                            android:textColor="@color/white"
+
+                            android:textSize="18dp"
+                            android:textStyle="bold"
+                            android:text="Martes"  />
+
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="40dp"
+                    android:layout_gravity="center"
+                    android:clickable="true"
+                    android:onClick="dia3"
+                    app:cardCornerRadius="10dp" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/fondo4"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textViewmiercolessemana5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="50dp"
+                            android:backgroundTint="@android:color/transparent"
+                            android:gravity="center"
+
+                            android:layout_marginBottom="10dp"
+
+                            android:textColor="@color/white"
+
+                            android:textSize="18dp"
+                            android:textStyle="bold"
+                            android:text="Miércoles" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="40dp"
+                    android:layout_gravity="center"
+                    android:clickable="true"
+                    android:onClick="dia4"
+                    app:cardCornerRadius="10dp" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/fondo9"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textViewviernessemana5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="50dp"
+                            android:backgroundTint="@android:color/transparent"
+                            android:gravity="center"
+
+                            android:layout_marginBottom="10dp"
+                            android:textColor="@color/white"
+
+                            android:textSize="18dp"
+                            android:textStyle="bold"
+                            android:text="Viernes" />
+
+                        <TextView
+                            android:id="@+id/textView232"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="40dp"
+                            android:backgroundTint="@android:color/transparent"
+                            android:gravity="right"
+                            android:layout_marginRight="20dp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginBottom="5dp"
+                            android:textColor="@color/white"
+                            android:textSize="13dp"
+                            android:text="Pectorales, espalda, bíceps, tríceps, deltoide frontal y trapecios" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="40dp"
+                    android:layout_gravity="center"
+                    android:clickable="true"
+                    android:onClick="dia5"
+                    app:cardCornerRadius="10dp" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/fondo15"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textViewsabadosemana5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="50dp"
+                            android:backgroundTint="@android:color/transparent"
+                            android:gravity="center"
+
+                            android:layout_marginBottom="10dp"
+                            android:textColor="@color/white"
+
+                            android:textSize="18dp"
+                            android:textStyle="bold"
+                            android:text="Sábado" />
+
+                        <TextView
+                            android:id="@+id/textView233"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="40dp"
+                            android:backgroundTint="@android:color/transparent"
+                            android:gravity="right"
+                            android:layout_marginRight="20dp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginBottom="5dp"
+                            android:textColor="@color/white"
+                            android:textSize="12dp"
+                            android:text="Cuadriceps, isquiosurales, deltoides, pantorrillas, gluteos y abdomen" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+
+
+
+
+            <TextView
+                android:id="@+id/textView48"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:text="¿Terminaste tu semana? " />
+
+
+
+            <android.widget.Button
+                android:id="@+id/button37"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:layout_weight="1"
+                android:background="@drawable/custom_input2"
+                android:gravity="center"
+                android:text="He terminado mi semana"
+                android:onClick="responder3"
+                android:textSize="16dp"
+                android:textAllCaps="false"
+                android:scrollbarSize="16dp"
+                android:textColor="@color/white" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

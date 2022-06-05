@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".preguntas5">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView71"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:layout_marginTop="30dp"
+                android:textSize="15dp"
+                android:text="¿Cuál es el objetivo?" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <RadioButton
+                    android:id="@+id/radioButton29"
+                    android:background="@drawable/radiobutton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:buttonTint="@color/bluekorellia"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center"
+                    android:textSize="12dp"
+                    android:text="Desarrollar masa muscular" />
+
+                <RadioButton
+                    android:id="@+id/radioButton30"
+                    android:background="@drawable/radiobutton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:buttonTint="@color/bluekorellia"
+
+                    android:layout_marginTop="4dp"
+                    android:gravity="center"
+                    android:textSize="12dp"
+                    android:text="Definir mi musculatura y bajar de peso" />
+
+                <RadioButton
+                    android:id="@+id/radioButton45"
+                    android:background="@drawable/radiobutton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:buttonTint="@color/bluekorellia"
+
+                    android:layout_marginTop="4dp"
+                    android:gravity="center"
+                    android:textSize="12dp"
+                    android:text="Mantenimiento" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView72"
+                android:layout_width="300dp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:layout_marginTop="30dp"
+                android:textSize="15dp"
+                android:text="¿Presentas dolor muscular o embaramiento despues de entrenar?" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <RadioButton
+                    android:id="@+id/radioButton32"
+                    android:background="@drawable/radiobutton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:buttonTint="@color/bluekorellia"
+
+                    android:layout_marginTop="20dp"
+                    android:gravity="center"
+                    android:textSize="12dp"
+                    android:text="Se presenta dolor hasta por 3 días" />
+
+                <RadioButton
+                    android:id="@+id/radioButton33"
+                    android:background="@drawable/radiobutton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:buttonTint="@color/bluekorellia"
+
+                    android:layout_marginTop="4dp"
+                    android:gravity="center"
+                    android:textSize="12dp"
+                    android:text="Se presenta dolor hasta por 2 días" />
+
+                <RadioButton
+                    android:id="@+id/radioButton34"
+                    android:background="@drawable/radiobutton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:buttonTint="@color/bluekorellia"
+
+                    android:layout_marginTop="4dp"
+                    android:gravity="center"
+                    android:textSize="12dp"
+                    android:text="Se presenta dolor de 1 a 2 días" />
+
+                <RadioButton
+                    android:id="@+id/radioButton35"
+                    android:background="@drawable/radiobutton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:buttonTint="@color/bluekorellia"
+
+                    android:layout_marginTop="4dp"
+                    android:gravity="center"
+                    android:textSize="12dp"
+                    android:text="Raramente se presenta dolor por más de un dia" />
+
+                <RadioButton
+                    android:id="@+id/radioButton36"
+                    android:background="@drawable/radiobutton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:buttonTint="@color/bluekorellia"
+
+                    android:layout_marginTop="4dp"
+                    android:gravity="center"
+                    android:textSize="12dp"
+                    android:text="Menos de 1 día" />
+
+                <RadioButton
+                    android:id="@+id/radioButton37"
+                    android:background="@drawable/radiobutton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:buttonTint="@color/bluekorellia"
+
+                    android:layout_marginTop="4dp"
+                    android:gravity="center"
+                    android:textSize="12dp"
+                    android:text="Nunca he entrenado" />
+
+            </RadioGroup>
+
+            <android.widget.Button
+                android:id="@+id/button25"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:textColor="@color/white"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/custom_input2"
+                android:textAllCaps="false"
+                android:textSize="16dp"
+
+                android:onClick="preguntas50"
+                android:text="Siguiente" />
+
+
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

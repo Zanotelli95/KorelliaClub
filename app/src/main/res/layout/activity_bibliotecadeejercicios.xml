@@ -1,0 +1,3078 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".bibliotecadeejercicios">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/toolbarbibliotecadeejercicios"
+        >
+    </androidx.appcompat.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
+        android:scrollbars="none"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                app:cardBackgroundColor="@android:color/transparent"
+                app:cardElevation="0dp"
+                android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/bib" />
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="18dp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:text="Abdomen" />
+
+
+
+            <TextView
+                android:id="@+id/textView4920"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="crunchabdominalconflexiondepiernas"
+                android:text="Crunch abdominal con flexión de piernas" />
+
+
+            <TextView
+                android:id="@+id/textView493"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="crunchabdominalenbancodeclinadoconbalonpordetras"
+                android:text="Crunch abdominal en banco declinado con balón por detrás" />
+
+
+
+            <TextView
+                android:id="@+id/textView492"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="crunchabdominalenbancodeclinado"
+                android:text="Crunch abdominal en banco declinado" />
+
+
+            <TextView
+                android:id="@+id/textView494"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="crunchabdominalhincadoconcuerda"
+                android:text="Crunch abdominal hincado con cuerda" />
+
+
+
+            <TextView
+                android:id="@+id/textView495"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="crunchabdominallateral"
+                android:text="Crunch abdominal lateral" />
+
+
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:onClick="crunchabdominal"
+                android:text="Crunch abdominal" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="14dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="crunchabdominalenmaquina"
+                android:text="Crunch abdominal en máquina" />
+
+
+
+            <TextView
+                android:id="@+id/textView496"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="crunchlateralconpoleaalta"
+                android:text="Crunch lateral con polea alta" />
+
+
+
+
+            <TextView
+                android:id="@+id/textView497"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="crunchtipobicicleta"
+                android:text="Crunch tipo bicicleta" />
+
+
+
+            <TextView
+                android:id="@+id/textView498"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="Elevacionesdepiernasacostadoenbanco"
+                android:text="Elevaciones de piernas acostado en banco" />
+
+
+
+            <TextView
+                android:id="@+id/textView499"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="crunchabdominalenmaquinaconcuerda"
+                android:text="Crunch abdominal en máquina con cuerda" />
+
+
+
+            <TextView
+                android:id="@+id/textView4910"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="Elevacióndepiernasensillaromana"
+                android:text="Elevación de piernas en silla romana" />
+
+
+
+            <TextView
+                android:id="@+id/textView4911"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="rodilloabdominal"
+                android:text="Rodillo abdominal" />
+
+
+
+            <TextView
+                android:id="@+id/textView4912"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="toquesaltalon"
+                android:text="Toques al talón" />
+
+
+
+
+            <TextView
+                android:id="@+id/textView50"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:text="Biceps" />
+
+            <TextView
+                android:id="@+id/textView53"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:background="@drawable/radiobutton"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:onClick="curlconcentrado"
+                android:text="Curl concentrado a 1 brazo recargado en muslo" />
+
+            <TextView
+                android:id="@+id/textView531"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:background="@drawable/radiobutton"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:onClick="curldebicepsa1brazoconpoleaalturamedia"
+                android:text="Curl de biceps a 1 brazo con polea altura media" />
+
+
+
+            <TextView
+                android:id="@+id/textView55"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:background="@drawable/radiobutton"
+                android:textColor="@color/white"
+
+                android:paddingStart="15dp"
+
+                android:onClick="curl90grados"
+                android:text="Curl de biceps a 90° con barra" />
+
+            <TextView
+                android:id="@+id/textView56"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+
+                android:onClick="curlacostado"
+                android:text="Curl de biceps acostado en banco inclinado" />
+
+            <TextView
+                android:id="@+id/textView57"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="curlalternado"
+                android:text="Curl de biceps alternado" />
+
+            <TextView
+                android:id="@+id/textView58"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="curlbarraz"
+                android:text="Curl de biceps con barra z" />
+
+            <TextView
+                android:id="@+id/textView59"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="curlmaneralrecto"
+                android:text="Curl de biceps con polea maneral recto" />
+
+            <TextView
+                android:id="@+id/textView60"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="curlmaquina"
+                android:text="Curl de bíceps en máquina" />
+
+            <TextView
+                android:id="@+id/textView61"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="curlpredicadormancuernas"
+                android:text="Curl de biceps en predicador con mancuernas" />
+
+            <TextView
+                android:id="@+id/textView611"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="curlmartillobarraromana"
+                android:text="Curl martillo barra romana" />
+
+            <TextView
+                android:id="@+id/textView74"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="curlmartilloconcuerda"
+                android:text="Curl martillo con cuerda" />
+
+            <TextView
+                android:id="@+id/textView75"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="curlmartillomancuernas"
+                android:text="Curl martillo con mancuernas" />
+
+            <TextView
+                android:id="@+id/textView76"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="curlpredicadorbarraz"
+                android:text="Curl predicador con barra z" />
+
+            <TextView
+                android:id="@+id/textView77"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="curlspiderconbarra"
+                android:text="Curl spider con barra" />
+
+            <TextView
+                android:id="@+id/textView78"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="curlspiderconmancuernas"
+                android:text="Curl spider con mancuernas" />
+
+            <TextView
+                android:id="@+id/textView79"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:text="Calentamiento" />
+
+            <TextView
+                android:id="@+id/textView82"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="aduccionesdehombro"
+                android:text="Aducciones de hombro" />
+
+            <TextView
+                android:id="@+id/textView83"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="balanceodepiernas"
+                android:text="Balanceo de pierna" />
+
+
+
+
+            <TextView
+                android:id="@+id/textView831"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="bearcrawlshouldertouch"
+                android:text="Bear crawl shoulder touch" />
+
+            <TextView
+                android:id="@+id/textView84"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="bicicleta"
+                android:text="Bicicleta" />
+
+
+            <TextView
+                android:id="@+id/textView832"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="birddogs"
+                android:text="Bird dogs" />
+
+
+            <TextView
+                android:id="@+id/textView851"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="cubanpress"
+                android:text="Cuban press" />
+
+
+            <TextView
+                android:id="@+id/textView852"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="deadbugs"
+                android:text="Dead bugs" />
+
+
+
+
+
+            <TextView
+                android:id="@+id/textView85"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="desplantes"
+                android:text="Desplantes sin peso" />
+
+            <TextView
+                android:id="@+id/textView88"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="elevaciondepiernasacostado"
+                android:text="Elevaciones de pierna acostado" />
+
+            <TextView
+                android:id="@+id/textView90"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="gatoscamello"
+                android:text="Gatos - Camello" />
+
+            <TextView
+                android:id="@+id/textView901"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="gobletsquat"
+                android:text="Goblet Squat" />
+
+
+            <TextView
+                android:id="@+id/textView902"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="Mountainclimberstretchdynamic"
+                android:text="Mountain climber stretch dynamic" />
+
+
+
+            <TextView
+                android:id="@+id/textView91"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="puentesacostado"
+                android:text="Puentes acostado" />
+
+            <TextView
+                android:id="@+id/textView92"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="rotacióndehombrosextendidas"
+                android:text="Rotación de hombro con brazos extendidos" />
+
+            <TextView
+                android:id="@+id/textView94"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="rotacióndehombro"
+                android:text="Rotación de hombro" />
+
+            <TextView
+                android:id="@+id/textView941"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="rotacióndemuñecas"
+                android:text="Rotación de muñecas" />
+
+            <TextView
+                android:id="@+id/textView111"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="rotacióndetobillos"
+                android:text="Rotación de tobillos" />
+
+            <TextView
+                android:id="@+id/textView833"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="Rotaciónexternadehombroconcablepegadoalcuerpo"
+                android:text="Rotación externa de hombro con cable pegado al cuerpo" />
+
+
+            <TextView
+                android:id="@+id/textView834"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="Rotaciónexternadehombroconmancuernaspegadoalcuerpo"
+                android:text="Rotación externa de hombro con mancuernas pegado al cuerpo" />
+
+
+            <TextView
+                android:id="@+id/textView835"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="tallkneelinggluteactivation"
+                android:text="Tall kneeling glute activation" />
+
+
+
+
+            <TextView
+                android:id="@+id/textView112"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:text="Cuadriceps" />
+
+            <TextView
+                android:id="@+id/textView113"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="desplantesconmancuernas"
+                android:text="Desplantes con mancuernas" />
+
+            <TextView
+                android:id="@+id/textView1131"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="extensionesdecuadricepsenmaquina"
+                android:text="Extensiones de cuádriceps en máquina" />
+
+
+            <TextView
+                android:id="@+id/textView1132"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="Prensaa1pierna"
+                android:text="Prensa a 1 pierna" />
+
+
+
+            <TextView
+                android:id="@+id/textView114"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="prensa45grados"
+                android:text="Prensa a 45°" />
+
+            <TextView
+                android:id="@+id/textView116"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="prensahorizontalenmaquina"
+                android:text="Prensa horizontal en máquina" />
+
+            <TextView
+                android:id="@+id/textView117"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="sentadilla"
+                android:text="Sentadilla" />
+
+            <TextView
+                android:id="@+id/textView1171"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="sentadillaa90gradosensmith"
+                android:text="Sentadilla a 90 grados en smith" />
+
+
+            <TextView
+                android:id="@+id/textView1172"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="sentadillabulgaraconmancuernas"
+                android:text="Sentadilla bulgara con mancuernas" />
+
+
+            <TextView
+                android:id="@+id/textView118"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="sentadillaconbarra"
+                android:text="Sentadilla con barra" />
+
+            <TextView
+                android:id="@+id/textView119"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="sentadillaenmaquinaperfecta"
+                android:text="Sentadilla en máquina perfecta" />
+
+            <TextView
+                android:id="@+id/textView120"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="sentadillafrontalconmancuernas"
+                android:text="Sentadilla frontal con mancuernas" />
+
+            <TextView
+                android:id="@+id/textView1202"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="sentadillafrontalrnsmith"
+                android:text="Sentadilla frontal en smith" />
+
+            <TextView
+                android:id="@+id/textView1203"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="sentadillafrontal"
+                android:text="Sentadilla frontal" />
+
+
+            <TextView
+                android:id="@+id/textView1204"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="sentadillasmith"
+                android:text="Sentadilla smith" />
+
+
+
+
+            <TextView
+                android:id="@+id/textView121"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="18dp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:text="Deltoide frontal" />
+
+
+            <TextView
+                android:id="@+id/textView1221"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="elevacionfrontalsupinoconmancuernas"
+                android:text="Elevación frontal supino con mancuernas" />
+
+
+
+
+            <TextView
+                android:id="@+id/textView12223"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="elevacionfrontalconcuerdaa1brazoenpoleabaja"
+                android:text="Elevacion frontal con cuerda a 1 brazo en polea baja" />
+
+
+            <TextView
+                android:id="@+id/textView12224"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="elevacionfrontalcondisco"
+                android:text="Elevacion frontal con disco" />
+
+            <TextView
+                android:id="@+id/textView12225"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="elevacionfrontalconmancuernassagarreneutro"
+                android:text="Elevación frontal con mancuernas agarre neutro" />
+
+
+            <TextView
+                android:id="@+id/textView12226"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="elevacionfrontalconmancuernasagarreprono"
+                android:text="Elevación frontal con mancuernas agarre prono" />
+
+
+            <TextView
+                android:id="@+id/textView12227"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="pressarnold"
+                android:text="Press Arnold" />
+
+
+
+
+            <TextView
+                android:id="@+id/textView123"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="pressenmaquinaagarreneutro"
+                android:text="Press en maquina agarre neutro" />
+
+            <TextView
+                android:id="@+id/textView124"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="pressmilitarconbarra"
+                android:text="Press militar con barra" />
+
+            <TextView
+                android:id="@+id/textView125"
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:layout_height="wrap_content"
+                android:onClick="pressmilitarconmancuernas"
+                android:text="Press militar con mancuernas" />
+
+
+
+            <TextView
+                android:id="@+id/textView1251"
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:layout_height="wrap_content"
+                android:onClick="pressmilitarenmaquinaagarreprono"
+                android:text="Press militar en máquina agarrre prono" />
+
+
+
+            <TextView
+                android:id="@+id/textView1252"
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:layout_height="wrap_content"
+                android:onClick="pressmilitarensmith"
+                android:text="Press militar en smith" />
+
+
+
+
+            <TextView
+                android:id="@+id/textView1253"
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:layout_height="wrap_content"
+                android:onClick="pushpress"
+                android:text="Push press" />
+
+
+
+
+            <TextView
+                android:id="@+id/textView126"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="18dp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:text="Deltoides laterales y posteriores" />
+
+
+            <TextView
+                android:id="@+id/textView128"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:onClick="elevacionlateralesconmancuerna"
+                android:text="Elevaciones laterales con mancuernas" />
+
+
+
+            <TextView
+                android:id="@+id/textView1281"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:onClick="elevacionlaterala45gradosconmancuernas"
+                android:text="Elevaciones lateral a 45° con mancuernas" />
+
+            <TextView
+                android:id="@+id/textView1282"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:onClick="elevacionlateralconmancuernaacostadoenbancoinclinado"
+                android:text="Elevación lateral con mancuerna acostado en banco inclinado" />
+
+
+
+
+
+            <TextView
+                android:id="@+id/textView127"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:onClick="elevacionlateralconpoleabaja"
+                android:text="Elevacion lateral con polea baja" />
+
+
+            <TextView
+                android:id="@+id/textView1272"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:onClick="elevacionlateralpordetras"
+                android:text="Elevacion lateral por detrás" />
+
+
+            <TextView
+                android:id="@+id/textView1273"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:onClick="facepullconcuerda"
+                android:text="Facepull con cuerda" />
+
+
+            <TextView
+                android:id="@+id/textView1274"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:onClick="flyesagachados"
+                android:text="Flyes agachados" />
+
+
+            <TextView
+                android:id="@+id/textView1275"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:onClick="flyesinvertidoscruzados"
+                android:text="Flyes invertidos cruzados" />
+
+
+
+            <TextView
+                android:id="@+id/textView129"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:onClick="flyesinvertidosenpeckdeck"
+                android:text="Flyes invertidos en peck deck" />
+
+            <TextView
+                android:id="@+id/textView130"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:onClick="remoalmentonconbarra"
+                android:text="Remo al menton con barra" />
+
+
+            <TextView
+                android:id="@+id/textView1301"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:onClick="remoalmentonconmancuernas"
+                android:text="Remo al menton con mancuernas" />
+
+            <TextView
+                android:id="@+id/textView131"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:onClick="remoalmentonconpoleabaja"
+                android:text="Remo al menton con polea baja" />
+
+            <TextView
+                android:id="@+id/textView132"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="18dp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:text="Espalda" />
+
+            <TextView
+                android:id="@+id/textView133"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="dominadas"
+                android:text="Dominadas" />
+
+            <TextView
+                android:id="@+id/textView134"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="hiperextensiones"
+                android:text="Hiperextensiones de espalda en banco" />
+
+
+
+            <TextView
+                android:id="@+id/textView1341"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="jalonfrontalcerradoconpoleaalta"
+                android:text="Jalón frontal agarre cerrado con polea alta" />
+
+
+
+            <TextView
+                android:id="@+id/textView135"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="jalonfrontalconagarreabierto"
+                android:text="Jalón frontal con agarre abierto" />
+
+            <TextView
+                android:id="@+id/textView136"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="jalonfrontalcontriangulo"
+                android:text="Jalon frontal con triangulo" />
+
+
+            <TextView
+                android:id="@+id/textView1361"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="pesomuertoconvencional"
+                android:text="Peso muerto convencional" />
+
+
+            <TextView
+                android:id="@+id/textView137"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="pulloverconbcuerda"
+                android:text="Pullover con cuerda" />
+
+
+            <TextView
+                android:id="@+id/textView1371"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="pulloverconmancuerna"
+                android:text="Pullover con mancuerna" />
+
+
+
+            <TextView
+                android:id="@+id/textView138"
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:layout_height="wrap_content"
+                android:onClick="remoa1manoconpoleabaja"
+                android:text="Remo a 1 mano con polea baja" />
+
+            <TextView
+                android:id="@+id/textView139"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="remoconmancuernaa1brazo"
+                android:text="Remo con mancuerna a 1 brazo" />
+
+            <TextView
+                android:id="@+id/textView140"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="remoenmaquinaagarreenpronacion"
+                android:text="Remo en maquina agarre en pronación" />
+
+            <TextView
+                android:id="@+id/textView142"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="remoenmaquinahammer"
+                android:text="Remo en maquina hammer" />
+
+
+            <TextView
+                android:id="@+id/textView1421"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="remohorizontalconbarra"
+                android:text="Remo horizontal con barra" />
+
+            <TextView
+                android:id="@+id/textView1422"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="remohorizontalsmith"
+                android:text="Remo horizontal en smith" />
+
+
+            <TextView
+                android:id="@+id/textView1423"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="remopendlay"
+                android:text="Remo pendlay" />
+
+
+
+
+
+            <TextView
+                android:id="@+id/textView141"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="remosentadoenpoleacontriangulo"
+                android:text="Remo sentado en polea con triangulo" />
+
+            <TextView
+                android:id="@+id/textView143"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:text="Gluteos y aductores" />
+
+            <TextView
+                android:id="@+id/textView1440"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="aduccionesdecaderaconpolea"
+                android:text="Aducciones de cadera con polea" />
+
+
+            <TextView
+                android:id="@+id/textView144"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="abduccionesdecaderaenmaquina"
+                android:text="Abducciones de cadera en maquina" />
+
+
+            <TextView
+                android:id="@+id/textView1441"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="abduccionesdecaderaconpolea"
+                android:text="Aducciones de cadera con polea" />
+
+            <TextView
+                android:id="@+id/textView145"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="aduccionedecaderaenmaquina"
+                android:text="Aducciones de cadera en maquina" />
+
+            <TextView
+                android:id="@+id/textView146"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="hipthrustconbarra"
+                android:text="Hip Thrust con barra" />
+
+            <TextView
+                android:id="@+id/textView147"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="patadaparagluteoconmancuerna"
+                android:text="Patada para gluteo con mancuerna" />
+
+            <TextView
+                android:id="@+id/textView148"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="patadaparagluteoconpolea"
+                android:text="Patada para gluteo con polea" />
+
+            <TextView
+                android:id="@+id/textView149"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="patadaparagluteoenmaquina"
+                android:text="Patada para gluteos en máquina" />
+
+            <TextView
+                android:id="@+id/textView150"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="patadaparagluteoenmaquinadepie"
+                android:text="Patada para glúteos en máquina de pie" />
+
+            <TextView
+                android:id="@+id/textView151"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="pesomuertotiposumoconbarra"
+                android:text="Peso muerto tipo sumo con barra" />
+
+            <TextView
+                android:id="@+id/textView152"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="pesomuertotiposumoconmancuerna"
+                android:text="Peso muerto tipo sumo con mancuerna" />
+
+            <TextView
+                android:id="@+id/textView153"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="puentea1pierna"
+                android:text="Puente a 1 pierna" />
+
+            <TextView
+                android:id="@+id/textView154"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="pesoconmancuerna"
+                android:text="Puente con mancuerna" />
+
+            <TextView
+                android:id="@+id/textView155"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="sentadillasmithtiposumo"
+                android:text="Sentadilla smith tipo sumo" />
+
+            <TextView
+                android:id="@+id/textView156"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="18dp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:text="Isquiosurales" />
+
+            <TextView
+                android:id="@+id/textView157"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="curlacostadoconmancuerna"
+                android:text="Curl acostado con mancuerna" />
+
+            <TextView
+                android:id="@+id/textView1571"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="curlfemorala1piernaacostado"
+                android:text="Curl femoral a 1 pierna acostado" />
+
+
+            <TextView
+                android:id="@+id/textView158"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="curlfemorala1piernaparado"
+                android:text="Curl femoral a 1 pierna parado" />
+
+            <TextView
+                android:id="@+id/textView159"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="curlfemoralacostadoenmáquina"
+                android:text="Curl femoral acostado en máquina" />
+
+            <TextView
+                android:id="@+id/textView160"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="curlsentadoenmáquinaparaisquiosurales"
+                android:text="Curl sentado en maquina para isquiosurales" />
+
+
+            <TextView
+                android:id="@+id/textView1601"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="elevaciondecaderaa1pierna"
+                android:text="Elevación de cadera a 1 pierna" />
+
+
+
+            <TextView
+                android:id="@+id/textView161"
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:layout_height="wrap_content"
+                android:onClick="pesomuertoa1pierna"
+                android:text="Peso muerto a 1 pierna" />
+
+            <TextView
+                android:id="@+id/textView162"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="pesomuertoconmancuernas"
+                android:text="Peso muerto con mancuernas" />
+
+            <TextView
+                android:id="@+id/textView163"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="pesomuertoconpiernasrigidasconbarra"
+                android:text="Peso muerto con piernas rigidas con barra" />
+
+
+            <TextView
+                android:id="@+id/textView1631"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="pesomuertoensmith"
+                android:text="Peso muerto en smith" />
+
+
+            <TextView
+                android:id="@+id/textView164"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:text="Pantorrillas" />
+
+            <TextView
+                android:id="@+id/textView165"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="elevacionesdelatonencosturera"
+                android:text="Elevaciones de talon en costurera" />
+
+            <TextView
+                android:id="@+id/textView166"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="elevacionesdetalonenprensaa1pierna"
+                android:text="Elevaciones de talon en prensa a 1 pierna" />
+
+
+            <TextView
+                android:id="@+id/textView1661"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="elevaciondetalonenprensahorizontal"
+                android:text="Elevación de talón en prensa horizontal" />
+
+            <TextView
+                android:id="@+id/textView1662"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="elevaciondetalonensentadillaperfecta"
+                android:text="Elevación de talón en sentadilla perfecta" />
+
+
+
+            <TextView
+                android:id="@+id/textView167"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="elevacionesdetalonparadoconmancuerna"
+                android:text="Elevaciones de talon parado con mancuerna" />
+
+
+
+            <TextView
+                android:id="@+id/textView1671"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="elevacionesdetalonenprensa45"
+                android:text="Elevaciones de talon en prensa a 45 grados" />
+
+
+
+            <TextView
+                android:id="@+id/textView168"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:text="Pectorales" />
+
+            <TextView
+                android:id="@+id/textView1691"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="aperturasconmancuernasenbancoinclinado"
+                android:text="Aperturas con mancuernas en banco inclinado" />
+
+
+            <TextView
+                android:id="@+id/textView169"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="aperturasconmancuernasenbancoplano"
+                android:text="Aperturas con mancuernas en banco plano" />
+
+
+            <TextView
+                android:id="@+id/textView1692"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="aperturasenpeckdeck"
+                android:text="Aperturas en peck deck" />
+
+            <TextView
+                android:id="@+id/textView1693"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="crossovernivelmedio"
+                android:text="Crossover en nivel medio" />
+
+
+            <TextView
+                android:id="@+id/textView1694"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="crossoverpoleaalta"
+                android:text="Crossover en polea alta" />
+
+            <TextView
+                android:id="@+id/textView16925"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="crossoverpoleabaja"
+                android:text="Crossover en polea baja" />
+
+
+            <TextView
+                android:id="@+id/textView16926"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="fondos"
+                android:text="Fondos" />
+
+            <TextView
+                android:id="@+id/textView16927"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="lagartijas"
+                android:text="Flexiones o lagartijas" />
+
+
+
+            <TextView
+                android:id="@+id/textView170horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="presshorizontalconbarra"
+                android:text="Press horizontal con barra" />
+
+
+            <TextView
+                android:id="@+id/textView170"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="pressconmancuernasenbancoinclinado"
+                android:text="Press con mancuernas en banco inclinado" />
+
+            <TextView
+                android:id="@+id/textView171"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="pressconmancuernasenbancoplano"
+                android:text="Press con mancuernas en banco plano" />
+
+            <TextView
+                android:id="@+id/textView172"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="pressdepectoralesenmaquinahammer"
+                android:text="Press de pectorales en maquina hammer" />
+
+
+            <TextView
+                android:id="@+id/textView1721"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="pressdeclinadoconmancuernas"
+                android:text="Press declinado con mancuernas" />
+
+
+
+
+            <TextView
+                android:id="@+id/textView173"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="presshorizontalenmaquina"
+                android:text="Press horizontal en máquina" />
+
+            <TextView
+                android:id="@+id/textView174"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="pressinclinadoconbarra"
+                android:text="Press inclinado con barra" />
+
+
+            <TextView
+                android:id="@+id/textView1741"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="pressinclinadoensmith"
+                android:text="Press inclinado en smith" />
+
+
+            <TextView
+                android:id="@+id/textView1742"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="pressplanoensmith"
+                android:text="Press plano en smith" />
+
+
+
+
+
+            <TextView
+                android:id="@+id/textView175"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="18dp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:text="Trapecios" />
+
+
+            <TextView
+                android:id="@+id/textView1761"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="encogimientodehombroconbarrapordelante"
+                android:text="Encogimiento de hombro con barra por delante" />
+
+
+
+            <TextView
+                android:id="@+id/textView1762"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="encogimientodehombrosconbarrapordetrás"
+                android:text="Encogimiento de hombros con barra por detrás" />
+
+
+            <TextView
+                android:id="@+id/textView176"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="encogimientodehombrosconmancuernas"
+                android:text="Encogimiento de hombros con mancuernas" />
+
+
+
+            <TextView
+                android:id="@+id/textView1763"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="encogimientodehombrosensmithpordetrás"
+                android:text="Encogimiento de hombros en smith por detrás" />
+
+            <TextView
+                android:id="@+id/textView177"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="encogimientodehombrosensmith"
+                android:text="Encogimiento de hombros en smith" />
+
+
+
+            <TextView
+                android:id="@+id/textView1764"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="paseodelgranjero"
+                android:text="Paseo del granjero" />
+
+
+
+            <TextView
+                android:id="@+id/textView178"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="18dp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:text="Triceps" />
+
+            <TextView
+                android:id="@+id/textView179"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="copaconbarra"
+                android:text="Copa con barra" />
+
+            <TextView
+                android:id="@+id/textView180"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="copaconmancuernaa1brazo"
+                android:text="Copa con mancuerna a 1 brazo" />
+
+
+            <TextView
+                android:id="@+id/textView1801"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="copaconmancuerna"
+                android:text="Copa con mancuerna" />
+
+
+            <TextView
+                android:id="@+id/textView181"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="extensionesdetricepsconcuerda"
+                android:text="Extensiones de tríceps con cuerda " />
+
+            <TextView
+                android:id="@+id/textView182"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="extensiondetricepsa1brazosupino"
+                android:text="Extension de tríceps a 1 brazo agarre supino" />
+
+            <TextView
+                android:id="@+id/textView183"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="extensionesdetricepsenmaquina"
+                android:text="Extensiones de tríceps en máquina" />
+
+
+            <TextView
+                android:id="@+id/textView1831"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="extensionesdetricepsenpoleaaltaconmaneralrecto"
+                android:text="Extensiones de tríceps en polea alta con maneral recto" />
+
+
+
+            <TextView
+                android:id="@+id/textView184"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="fondosenmaquina"
+                android:text="Fondo en máquina" />
+
+            <TextView
+                android:id="@+id/textView185"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="patadaparatricepsa1brazo"
+                android:text="Patada para tríceps a 1 brazo" />
+
+            <TextView
+                android:id="@+id/textView186"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="patadaparatricepsconpolea"
+                android:text="Patada para tríceps con polea" />
+
+
+            <TextView
+                android:id="@+id/textView1864"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="presscerradoconbarra"
+                android:text="Patada cerrado con barra" />
+
+
+            <TextView
+                android:id="@+id/textView1865"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="presscerradoesmith"
+                android:text="Press cerrado en smith" />
+
+
+            <TextView
+                android:id="@+id/textView1866"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="rompecraneosconbarraz"
+                android:text="Rompecraneos con barra z" />
+
+
+
+            <TextView
+                android:id="@+id/textView187"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:layout_marginRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:paddingStart="15dp"
+                android:background="@drawable/radiobutton"
+                android:onClick="rompecraneosconmancuernas"
+                android:text="Rompecraneos con mancuernas" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

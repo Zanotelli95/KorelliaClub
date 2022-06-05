@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".progresos">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:textColor="@color/white"
+                android:layout_marginTop="10dp"
+                android:text="Datos" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="14dp"
+                android:layout_marginTop="5dp"
+                android:text="Avances de tus datos más relevantes" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+
+                android:orientation="horizontal">
+
+                <android.widget.Button
+                    android:id="@+id/button"
+                    android:layout_width="120dp"
+                    android:layout_height="150dp"
+                    android:textColor="@color/white"
+                    android:background="@drawable/fondo1"
+                    android:textSize="14dp"
+                    android:textAllCaps="false"
+                    android:gravity="center"
+
+                    android:layout_marginRight="5dp"
+                    android:text="Peso Corporal" />
+
+                <android.widget.Button
+                    android:id="@+id/button2"
+                    android:layout_width="120dp"
+                    android:layout_height="150dp"
+                    android:textColor="@color/white"
+                    android:background="@drawable/fondo2"
+                    android:textSize="14dp"
+                    android:textAllCaps="false"
+                    android:gravity="center"
+                    android:layout_marginLeft="5dp"
+
+                    android:text="Grasa Corporal" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textSize="16dp"
+                android:layout_marginTop="30dp"
+                android:text="Medidas Corporales" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="14dp"
+                android:layout_marginTop="5dp"
+                android:text="Progresos de los medidas más relevantes" />
+
+            <HorizontalScrollView
+                android:layout_width="wrap_content"
+                android:scrollbars="none"
+                android:layout_height="wrap_content">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <android.widget.Button
+                        android:id="@+id/button3"
+                        android:layout_width="120dp"
+                        android:layout_height="150dp"
+                        android:textColor="@color/white"
+                        android:background="@drawable/fondo14"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginTop="5dp"
+                        android:textSize="14dp"
+                        android:textAllCaps="false"
+                        android:gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="5dp"
+                        android:text="Brazo Relajado" />
+
+                    <android.widget.Button
+                        android:id="@+id/button4"
+                        android:layout_width="120dp"
+                        android:layout_height="150dp"
+                        android:textColor="@color/white"
+                        android:background="@drawable/fondo15"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginTop="5dp"
+                        android:textSize="14dp"
+                        android:textAllCaps="false"
+                        android:gravity="center"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:text="Brazo Contraido" />
+
+                    <android.widget.Button
+                        android:id="@+id/button5"
+                        android:layout_width="120dp"
+                        android:layout_height="150dp"
+                        android:textColor="@color/white"
+                        android:background="@drawable/fondo7"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginTop="5dp"
+                        android:textSize="14dp"
+                        android:textAllCaps="false"
+                        android:gravity="center"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:text="Torax" />
+
+
+
+
+                    <android.widget.Button
+                        android:id="@+id/button7"
+                        android:layout_width="120dp"
+                        android:layout_height="150dp"
+                        android:textColor="@color/white"
+                        android:background="@drawable/fondo11"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginTop="5dp"
+                        android:textSize="14dp"
+                        android:textAllCaps="false"
+                        android:gravity="center"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:text="Cintura" />
+
+
+                    <android.widget.Button
+                        android:id="@+id/button8"
+                        android:layout_width="120dp"
+                        android:layout_height="150dp"
+                        android:textColor="@color/white"
+                        android:background="@drawable/fondo9"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginTop="5dp"
+                        android:textSize="14dp"
+                        android:textAllCaps="false"
+                        android:gravity="center"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:text="Cadera/Gluteos" />
+
+                    <android.widget.Button
+                        android:id="@+id/button9"
+                        android:layout_width="120dp"
+                        android:layout_height="150dp"
+                        android:textColor="@color/white"
+                        android:background="@drawable/fondo8"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginTop="5dp"
+                        android:textSize="14dp"
+                        android:textAllCaps="false"
+                        android:gravity="center"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:text="Muslo" />
+
+
+
+                    <android.widget.Button
+                        android:id="@+id/button10"
+                        android:layout_width="120dp"
+                        android:layout_height="150dp"
+                        android:textColor="@color/white"
+                        android:background="@drawable/fondo13"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginTop="5dp"
+                        android:textSize="14dp"
+                        android:textAllCaps="false"
+                        android:gravity="center"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:text="Muslo Medio" />
+
+
+
+                    <android.widget.Button
+                        android:id="@+id/button11"
+                        android:layout_width="120dp"
+                        android:layout_height="150dp"
+                        android:textColor="@color/white"
+                        android:background="@drawable/fondo5"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginTop="5dp"
+                        android:textSize="14dp"
+                        android:textAllCaps="false"
+                        android:gravity="center"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="10dp"
+                        android:text="Pantorrillas" />
+
+                </LinearLayout>
+            </HorizontalScrollView>
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="16dp"        android:textColor="@color/white"
+
+                android:layout_marginTop="30dp"
+                android:text="Registros" />
+
+
+            <android.widget.Button
+                android:id="@+id/button12"
+                android:layout_width="300dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:textColor="@color/white"
+                android:layout_marginTop="20dp"
+                android:textSize="16dp"
+                android:layout_gravity="center"
+                android:textAllCaps="false"
+                android:gravity="center"
+                android:background="@drawable/custom"
+                android:layout_height="wrap_content"
+                android:text="Calendario de entrenamiento" />
+
+            <android.widget.Button
+                android:id="@+id/button13"
+                android:layout_width="300dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:textColor="@color/white"
+                android:layout_marginTop="10dp"
+                android:textSize="16dp"
+                android:layout_gravity="center"
+                android:textAllCaps="false"
+                android:gravity="center"
+                android:background="@drawable/fondo13"
+                android:layout_height="wrap_content"
+                android:text="Hidratación" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="90dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Korellia Club" />
+
+
+
+    <item
+        android:id="@+id/progresos"
+        android:icon="@drawable/ic_baseline_trending_up_24"
+        android:title="Progresos" />
+
+    <item
+        android:id="@+id/me"
+        android:icon="@drawable/ic_baseline_person_24"
+        android:title="Yo" />
+
+</menu>

@@ -1,0 +1,961 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".cintura">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/toolbarcintura"
+        >
+
+    </androidx.appcompat.widget.Toolbar>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_marginTop="50dp"
+            android:scrollbars="none"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView20"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="5dp"
+                        app:srcCompat="@drawable/cintura1" />
+
+                    <ImageView
+                        android:id="@+id/imageView25"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="5dp"
+                        app:srcCompat="@drawable/cintura2" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/historial4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="10dp"
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:text="Historial de medidas"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                        android:id="@+id/indicacionescintura"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="30dp"
+                        android:layout_marginTop="10dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                        android:text="Indicaciones" />
+
+
+                <TextView
+                    android:id="@+id/textView249"
+                    android:layout_width="match_parent"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginTop="5dp"
+                    android:textSize="12dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:text="En la parte mínima de la cintura, rodear al sujeto con la cinta, cruzar y tomar la medición como se muestra en la imagen. " />
+
+                <TextView
+                    android:id="@+id/textView236"
+                    android:layout_width="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="right"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="30dp"
+                    android:textColor="@color/bluekorellialight"
+                    android:textSize="15dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_height="wrap_content"
+                    android:text="Fecha"  />
+
+                <TextView
+                    android:id="@+id/textView238"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="30dp"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center"
+                    android:textSize="14dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:text="Ingresar nueva medida" />
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/textView231cintura"
+                        android:layout_width="80dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:maxLength="3"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:textColor="@color/white"
+                        android:layout_marginRight="10dp"
+                        android:hint="Medida"
+                        android:textSize="14dp" />
+
+                    <android.widget.Button
+                        android:id="@+id/button33cintura"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/custom_input3"
+                        android:textAllCaps="false"
+                        android:onClick="ingresarcintura"
+                        android:textColor="@color/white"
+                        android:text="Ingresar"
+                        android:textSize="14dp" />
+
+                    <android.widget.Button
+                        android:id="@+id/button38cintura"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white"
+                        android:onClick="borrarcintura"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/custom_input4"
+                        android:text="Borrar"
+                        android:textSize="14dp" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginLeft="20dp"
+
+                    android:background="@color/gray"/>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_gravity="center"
+                    android:onClick="eliminarprimerocintura"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:id="@+id/primermedidacintura"
+                        android:layout_width="60dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="5dp"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:hint="00"
+                        android:textColor="@color/teal_200"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/textView234cintura"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginRight="20dp"
+                        android:gravity="center"
+                        android:textSize="14dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/teal_200"
+                        android:hint="centimetros" />
+
+                    <TextView
+                        android:id="@+id/textView229cintura"
+                        android:layout_width="100dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="40dp"
+                        android:textSize="14dp"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:textColor="@color/teal_200"
+                        android:hint="Fecha" />
+
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="@color/gray"/>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:onClick="eliminarsegundocintura"
+                    android:clickable="true"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:id="@+id/segundamedidacintura"
+                        android:layout_width="60dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="5dp"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:hint="00"
+                        android:textColor="@color/teal_200"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/segundatextView234cintura"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:textStyle="bold"
+                        android:layout_marginRight="20dp"
+                        android:gravity="center"
+                        android:textSize="14dp"
+                        android:textColor="@color/teal_200"
+                        android:hint="centimetros" />
+
+                    <TextView
+                        android:id="@+id/segundatextView229cintura"
+                        android:layout_width="100dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="40dp"
+                        android:textSize="14dp"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:textColor="@color/teal_200"
+                        android:hint="Fecha" />
+
+
+                </LinearLayout>
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="@color/gray"/>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_gravity="center"
+                    android:onClick="eliminartercerocintura"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:id="@+id/tercermedidacintura"
+                        android:layout_width="60dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="5dp"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:hint="00"
+                        android:textColor="@color/teal_200"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/tercertextView234cintura"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:textStyle="bold"
+                        android:layout_marginRight="20dp"
+                        android:gravity="center"
+                        android:textSize="14dp"
+                        android:textColor="@color/teal_200"
+                        android:hint="centimetros" />
+
+                    <TextView
+                        android:id="@+id/tercertextView229cintura"
+                        android:layout_width="100dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="40dp"
+                        android:textSize="14dp"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:textColor="@color/teal_200"
+                        android:hint="Fecha" />
+
+
+                </LinearLayout>
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="@color/gray"/>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_gravity="center"
+                    android:onClick="eliminarcuartocintura"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:id="@+id/cuartomedidacintura"
+                        android:layout_width="60dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="5dp"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:hint="00"
+                        android:textColor="@color/teal_200"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/cuartotextView234cintura"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:textStyle="bold"
+                        android:layout_marginRight="20dp"
+                        android:gravity="center"
+                        android:textSize="14dp"
+                        android:textColor="@color/teal_200"
+                        android:hint="centimetros" />
+
+                    <TextView
+                        android:id="@+id/cuartotextView229cintura"
+                        android:layout_width="100dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="40dp"
+                        android:textSize="14dp"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:textColor="@color/teal_200"
+                        android:hint="Fecha" />
+
+
+                </LinearLayout>
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="@color/gray"/>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_gravity="center"
+                    android:onClick="eliminarquintocintura"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:id="@+id/quintomedidacintura"
+                        android:layout_width="60dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="5dp"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:hint="00"
+                        android:textColor="@color/teal_200"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/quintotextView234cintura"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:textStyle="bold"
+                        android:layout_marginRight="20dp"
+                        android:gravity="center"
+                        android:textSize="14dp"
+                        android:textColor="@color/teal_200"
+                        android:hint="centimetros" />
+
+                    <TextView
+                        android:id="@+id/quintotextView229cintura"
+                        android:layout_width="100dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="40dp"
+                        android:textSize="14dp"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:textColor="@color/teal_200"
+                        android:hint="Fecha" />
+
+
+                </LinearLayout>
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="@color/gray"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:onClick="eliminarsextocintura"
+                    android:clickable="true"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:id="@+id/sextomedidacintura"
+                        android:layout_width="60dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="5dp"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:hint="00"
+                        android:textColor="@color/teal_200"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/sextotextView234cintura"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:textStyle="bold"
+                        android:layout_marginRight="20dp"
+                        android:gravity="center"
+                        android:textSize="14dp"
+                        android:textColor="@color/teal_200"
+                        android:hint="centimetros" />
+
+                    <TextView
+                        android:id="@+id/sextotextView229cintura"
+                        android:layout_width="100dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="40dp"
+                        android:textSize="14dp"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:textColor="@color/teal_200"
+                        android:hint="Fecha" />
+
+
+                </LinearLayout>
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="@color/gray"/>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_gravity="center"
+                    android:onClick="eliminarseptimocintura"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:id="@+id/septimomedidacintura"
+                        android:layout_width="60dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="5dp"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:hint="00"
+                        android:textColor="@color/teal_200"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/septimotextView234cintura"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:textStyle="bold"
+                        android:layout_marginRight="20dp"
+                        android:gravity="center"
+                        android:textSize="14dp"
+                        android:textColor="@color/teal_200"
+                        android:hint="centimetros" />
+
+                    <TextView
+                        android:id="@+id/septimotextView229cintura"
+                        android:layout_width="100dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="40dp"
+                        android:textSize="14dp"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:textColor="@color/teal_200"
+                        android:hint="Fecha" />
+
+
+                </LinearLayout>
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="@color/gray"/>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_gravity="center"
+                    android:onClick="eliminaroctavocintura"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:id="@+id/octavomedidacintura"
+                        android:layout_width="60dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="5dp"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:hint="00"
+                        android:textColor="@color/teal_200"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/octavotextView234cintura"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:textStyle="bold"
+                        android:layout_marginRight="20dp"
+                        android:gravity="center"
+                        android:textSize="14dp"
+                        android:textColor="@color/teal_200"
+                        android:hint="centimetros" />
+
+                    <TextView
+                        android:id="@+id/octavotextView229cintura"
+                        android:layout_width="100dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="40dp"
+                        android:textSize="14dp"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:textColor="@color/teal_200"
+                        android:hint="Fecha" />
+
+
+                </LinearLayout>
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="@color/gray"/>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_gravity="center"
+                    android:onClick="eliminarnovenocintura"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:id="@+id/novenomedidacintura"
+                        android:layout_width="60dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="5dp"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:hint="00"
+                        android:textColor="@color/teal_200"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/novenotextView234cintura"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:textStyle="bold"
+                        android:layout_marginRight="20dp"
+                        android:gravity="center"
+                        android:textSize="14dp"
+                        android:textColor="@color/teal_200"
+                        android:hint="centimetros" />
+
+                    <TextView
+                        android:id="@+id/novenotextView229cintura"
+                        android:layout_width="100dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="40dp"
+                        android:textSize="14dp"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:textColor="@color/teal_200"
+                        android:hint="Fecha" />
+
+
+                </LinearLayout>
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="@color/gray"/>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:onClick="eliminardecimocintura"
+                    android:clickable="true"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:id="@+id/decimomedidacintura"
+                        android:layout_width="60dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="5dp"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:hint="00"
+                        android:textColor="@color/teal_200"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/decimotextView234cintura"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:textStyle="bold"
+                        android:layout_marginRight="20dp"
+                        android:gravity="center"
+                        android:textSize="14dp"
+                        android:textColor="@color/teal_200"
+                        android:hint="centimetros" />
+
+                    <TextView
+                        android:id="@+id/decimotextView229cintura"
+                        android:layout_width="100dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="40dp"
+                        android:textSize="14dp"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:textColor="@color/teal_200"
+                        android:hint="Fecha" />
+
+
+                </LinearLayout>
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="@color/gray"/>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_gravity="center"
+                    android:onClick="eliminaronceavocintura"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:id="@+id/onceavomedidacintura"
+                        android:layout_width="60dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="5dp"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:hint="00"
+                        android:textColor="@color/teal_200"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/onceavotextView234cintura"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:textStyle="bold"
+                        android:layout_marginRight="20dp"
+                        android:gravity="center"
+                        android:textSize="14dp"
+                        android:textColor="@color/teal_200"
+                        android:hint="centimetros" />
+
+                    <TextView
+                        android:id="@+id/onceavotextView229cintura"
+                        android:layout_width="100dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="40dp"
+                        android:textSize="14dp"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:textColor="@color/teal_200"
+                        android:hint="Fecha" />
+
+
+                </LinearLayout>
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="@color/gray"/>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_gravity="center"
+                    android:onClick="eliminardoceavocintura"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:id="@+id/doceavomedidacintura"
+                        android:layout_width="60dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="5dp"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:hint="00"
+                        android:textColor="@color/teal_200"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/doceavotextView234cintura"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:textStyle="bold"
+                        android:layout_marginRight="20dp"
+                        android:gravity="center"
+                        android:textSize="14dp"
+                        android:textColor="@color/teal_200"
+                        android:hint="centimetros" />
+
+                    <TextView
+                        android:id="@+id/doceavotextView229cintura"
+                        android:layout_width="100dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="40dp"
+                        android:textSize="14dp"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:textColor="@color/teal_200"
+                        android:hint="Fecha" />
+
+
+                </LinearLayout>
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="@color/gray"/>
+
+
+                <TextView
+                    android:id="@+id/textView227cintura"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="20dp"
+                    android:textSize="12dp"
+                    android:gravity="center"
+                    android:text="Se recomienda ingresar una medida por mes." />
+
+
+            </LinearLayout>
+        </ScrollView>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

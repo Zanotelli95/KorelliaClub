@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "584390317309",
+    "project_id": "korellia-club-app",
+    "storage_bucket": "korellia-club-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:584390317309:android:5bbc938ae5ddec20f01a94",
+        "android_client_info": {
+          "package_name": "com.korellia.korelliaclubapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "584390317309-l6eodj21f19d7j4kg7ient4ec1q03e9e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOmytOUQqMnzu0evyrQyJJHMSg5IOIXkI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "584390317309-l6eodj21f19d7j4kg7ient4ec1q03e9e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".monitoreo">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toolbarmonitoreo"
+        >
+
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        android:layout_marginTop="50dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                app:cardBackgroundColor="@android:color/transparent"
+                app:cardElevation="0dp"
+                android:layout_height="wrap_content">
+
+
+                <ImageView
+                    android:id="@+id/button30"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/mon"
+                    />
+
+        </androidx.cardview.widget.CardView>
+
+
+
+
+            <TextView
+                android:id="@+id/textView87"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:text="Califica la intensidad de tu entrenamiento"
+
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <RadioButton
+                    android:id="@+id/radioButton46"
+                    android:buttonTint="@color/bluekorellia"
+                    android:layout_width="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:gravity="center"
+
+                    android:background="@drawable/radiobutton"
+                    android:textSize="12dp"
+                    android:layout_marginTop="15dp"
+                    android:text="Muy Facil" />
+
+                <RadioButton
+                    android:id="@+id/radioButton47"
+                    android:layout_width="match_parent"
+                    android:layout_gravity="center"
+                    android:buttonTint="@color/bluekorellia"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/radiobutton"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginRight="30dp"
+                    android:gravity="center"
+                    android:textSize="12dp"
+                    android:text="Normal" />
+
+                <RadioButton
+                    android:id="@+id/radioButton48"
+                    android:layout_width="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="4dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:background="@drawable/radiobutton"
+                    android:textSize="12dp"
+                    android:buttonTint="@color/bluekorellia"
+                    android:layout_marginRight="30dp"
+                    android:gravity="center"
+                    android:text="Complicado" />
+
+                <RadioButton
+                    android:id="@+id/radioButton49"
+                    android:layout_width="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="4dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/radiobutton"
+                    android:layout_marginLeft="30dp"
+                    android:textSize="12dp"
+                    android:buttonTint="@color/bluekorellia"
+                    android:layout_marginRight="30dp"
+                    android:gravity="center"
+                    android:text="Muy Dificil" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView98"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="30dp"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:text="¿Cuánto estrés fisico o mental tuviste esta semana?"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <RadioButton
+                    android:id="@+id/radioButton50"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/radiobutton"
+                    android:layout_marginRight="30dp"
+                    android:buttonTint="@color/bluekorellia"
+                    android:gravity="center"
+                    android:text="Sin estrés alguno"
+                    android:textSize="12dp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton51"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginRight="30dp"
+                    android:background="@drawable/radiobutton"
+                    android:buttonTint="@color/bluekorellia"
+                    android:gravity="center"
+                    android:text="Poco estrés"
+                    android:textSize="12dp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton52"
+                    android:layout_width="match_parent"
+                    android:background="@drawable/radiobutton"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="4dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="12dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:buttonTint="@color/bluekorellia"
+                    android:gravity="center"
+                    android:text="Muy estresado" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView99"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="¿Qué tal tu calidad de sueño?" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <RadioButton
+                    android:id="@+id/radioButton53"
+                    android:layout_width="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:background="@drawable/radiobutton"
+                    android:layout_marginTop="15dp"
+                    android:textSize="12dp"
+                    android:layout_marginRight="30dp"
+                    android:buttonTint="@color/bluekorellia"
+                    android:gravity="center"
+                    android:text="Muy relajado" />
+
+                <RadioButton
+                    android:id="@+id/radioButton54"
+                    android:layout_width="match_parent"
+                    android:background="@drawable/radiobutton"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="4dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:textSize="12dp"
+                    android:layout_marginRight="30dp"
+                    android:buttonTint="@color/bluekorellia"
+                    android:gravity="center"
+                    android:text="Normal" />
+
+                <RadioButton
+                    android:id="@+id/radioButton55"
+                    android:layout_width="match_parent"
+                    android:buttonTint="@color/bluekorellia"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="4dp"
+                    android:textSize="12dp"
+                    android:background="@drawable/radiobutton"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:gravity="center"
+                    android:layout_marginRight="30dp"
+                    android:text="Dificultad para dormir" />
+
+                <RadioButton
+                    android:id="@+id/radioButton56"
+                    android:layout_width="match_parent"
+                    android:background="@drawable/radiobutton"
+                    android:layout_marginTop="4dp"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:textSize="12dp"
+                    android:buttonTint="@color/bluekorellia"
+                    android:gravity="center"
+                    android:layout_marginRight="30dp"
+                    android:text="Con insomnio" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView100"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp"
+                android:textColor="@color/white"
+                android:text="¿Cuánta fatiga o dolor muscular sentiste esta semana de entrenamiento?" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <RadioButton
+                    android:id="@+id/radioButton58"
+                    android:layout_width="match_parent"
+                    android:layout_gravity="center"
+                    android:background="@drawable/radiobutton"
+                    android:buttonTint="@color/bluekorellia"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:gravity="center"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="30dp"
+                    android:textSize="12dp"
+                    android:text="Enérgico y sin dolor" />
+
+                <RadioButton
+                    android:id="@+id/radioButton59"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="4dp"
+                    android:background="@drawable/radiobutton"
+                    android:layout_gravity="center"
+                    android:buttonTint="@color/bluekorellia"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:textSize="12dp"
+                    android:gravity="center"
+                    android:layout_marginRight="30dp"
+                    android:text="Normal" />
+
+                <RadioButton
+                    android:id="@+id/radioButton60"
+                    android:layout_width="match_parent"
+                    android:layout_gravity="center"
+                    android:buttonTint="@color/bluekorellia"
+                    android:layout_height="wrap_content"
+                    android:textSize="12dp"
+                    android:layout_marginTop="4dp"
+                    android:background="@drawable/radiobutton"
+                    android:layout_marginLeft="30dp"
+                    android:gravity="center"
+                    android:layout_marginRight="30dp"
+                    android:text="Cansado" />
+
+                <RadioButton
+                    android:id="@+id/radioButton61"
+                    android:layout_width="match_parent"
+                    android:background="@drawable/radiobutton"
+                    android:layout_marginTop="4dp"
+                    android:layout_gravity="center"
+                    android:buttonTint="@color/bluekorellia"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:textSize="12dp"
+                    android:gravity="center"
+                    android:layout_marginRight="30dp"
+                    android:text="Siempre cansado y con dolor muscular" />
+            </RadioGroup>
+
+
+
+            <android.widget.Button
+                android:id="@+id/button31"
+                android:layout_marginTop="30dp"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:textAllCaps="false"
+                android:background="@drawable/fondo4"
+                android:textColor="@color/white"
+                android:textSize="16dp"
+                android:onClick="semana"
+                android:text="Generar nueva semana" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

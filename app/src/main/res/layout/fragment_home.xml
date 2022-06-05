@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <androidx.cardview.widget.CardView
+                        style="@style/Theme.Design"
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginRight="25dp"
+                        android:layout_height="190dp"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="20dp"
+                        app:cardCornerRadius="20dp">
+
+
+
+                            <ImageButton
+                                android:id="@+id/imageViewentrenamiento"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center"
+                                android:background="@drawable/ooo" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:alpha="0"
+                            android:layout_height="match_parent">
+
+                        </View>
+
+
+                            <TextView
+                                android:id="@+id/textmientrenamiento"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+
+                                android:textColor="@color/white"
+                                android:gravity="center"
+                                android:textStyle="bold"
+                                android:background="@color/material_on_background_disabled"
+                                android:text="Mi Entrenamiento"
+                                android:textSize="17dp"
+                               />
+
+
+
+                    </androidx.cardview.widget.CardView>
+
+                </FrameLayout>
+
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginRight="25dp"
+                        android:layout_height="190dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="20dp"
+                        app:cardCornerRadius="20dp">
+
+
+
+
+                            <ImageButton
+                                android:id="@+id/imageViewnutricion"
+                                android:layout_width="match_parent"
+                                android:layout_height="200dp"
+                                android:layout_gravity="center"
+                                android:background="@drawable/nutri2" />
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:alpha="0"
+                                android:layout_height="match_parent">
+
+                            </View>
+
+                            <TextView
+                                android:id="@+id/textnutricion"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+
+                                android:textColor="@color/white"
+                                android:gravity="center"
+                                android:textStyle="bold"
+                                android:background="@color/material_on_background_disabled"
+                                android:text="Mis Calorías"
+                                android:textSize="17dp"/>
+
+
+                    </androidx.cardview.widget.CardView>
+
+                </FrameLayout>
+
+            </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:layout_marginBottom="65dp"
+                    android:orientation="horizontal">
+
+                    <androidx.appcompat.widget.LinearLayoutCompat
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:orientation="vertical">
+
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            app:cardCornerRadius="20dp">
+
+                            <FrameLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="@color/bluekorellialight"
+                                android:orientation="vertical">
+
+                                <ImageButton
+                                    android:id="@+id/imageViewmonitoreo"
+                                    android:layout_width="230dp"
+                                    android:layout_height="170dp"
+                                    android:layout_gravity="center"
+                                    android:background="@drawable/pes2" />
+
+
+                                <View
+                                    android:layout_width="match_parent"
+                                    android:alpha="0"
+                                    android:layout_height="match_parent">
+
+                                </View>
+
+                                <TextView
+                                    android:id="@+id/textnutricion22"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:textColor="@color/white"
+                                    android:gravity="center"
+                                    android:textStyle="bold"
+                                    android:background="@color/material_on_background_disabled"
+                                    android:text="Monitoreo Semanal"
+                                    android:textSize="15dp"/>
+
+
+                            </FrameLayout>
+
+
+                        </androidx.cardview.widget.CardView>
+
+
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+                    <androidx.appcompat.widget.LinearLayoutCompat
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:orientation="vertical">
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+
+
+                            app:cardCornerRadius="20dp">
+
+                            <FrameLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="@color/bluekorellialight"
+                                android:orientation="vertical">
+
+                                <ImageButton
+                                    android:id="@+id/imageView2"
+                                    android:layout_width="230dp"
+                                    android:layout_height="170dp"
+                                    android:layout_gravity="center"
+                                    android:background="@drawable/libo" />
+
+
+                                <View
+                                    android:layout_width="match_parent"
+                                    android:alpha="0"
+                                    android:layout_height="match_parent">
+
+                                </View>
+
+                                <TextView
+                                    android:id="@+id/textnutricion222"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+
+                                    android:textColor="@color/white"
+                                    android:gravity="center"
+                                    android:textStyle="bold"
+                                    android:background="@color/material_on_background_disabled"
+                                    android:text="Biblioteca de ejercicios"
+                                    android:textSize="15dp"/>
+                            </FrameLayout>
+
+                        </androidx.cardview.widget.CardView>
+
+
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+                </LinearLayout>
+
+
+
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
